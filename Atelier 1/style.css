@@ -1,0 +1,111 @@
+body{
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+}
+h1{
+    font-size: 45px;
+}
+.paragraphe1{
+    color: rgb(60, 16, 100);
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+}
+.stars p{
+    color: rgb(60, 16, 100);
+}
+.stars{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding-top: 50px;
+    grid-template-areas:"one one . ."". two two ."". . three three";
+    gap: 10px;
+    width: 500px;
+    margin-right: 60px;
+}
+.stars1{
+    grid-area: one;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(235, 233, 232);
+    border-radius: 6px;
+    height: 50px;
+    width: 350px;
+    
+}
+.stars2{
+    grid-area: two;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(235, 233, 232);
+    border-radius: 6px;
+    height: 50px;
+    width: 350px;
+}
+.stars3{
+    grid-area: three;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(235, 233, 232);
+    border-radius: 6px;
+    height: 50px;
+    width: 350px;
+}
+.img{
+    border-radius: 50%;
+}
+.prg{
+    color: rgb(255, 255, 255);
+}
+#prg{
+    color: rgb(203, 48, 241);
+}
+.card1{
+    background-color: rgb(77, 9, 90);
+    border-radius: 7px;
+    width: 300px;
+    height: 190px;
+    padding: 30px 10px 20px 30px;
+}
+.card2{
+    background-color: rgb(77, 9, 90);
+    border-radius: 7px;
+    width: 300px;
+    height: 190px;
+    padding: 30px 10px 20px 30px;
+    position: relative;
+    top: 30px;
+}
+.card3{
+    background-color: rgb(77, 9, 90);
+    border-radius: 7px;
+    width: 300px;
+    height: 190px;
+    padding: 30px 10px 20px 30px;
+    position: relative;
+    top: 60px;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 30px;
+    place-items: center;
+}
+.colton{
+    display: flex;
+    gap: 10px;
+}
+.irene{
+    display: flex;
+    gap: 10px;
+}
+.anne{
+    display: flex;
+    gap: 10px;
+}
